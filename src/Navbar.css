@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+  
+.navbarRight {
+    display: flex;
+    align-items: center;
+}
+  
+.navbarLeft {
+    flex: 0.5;
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    color: gray;
+    align-items: center;
+}
+  
+.navbarLeft > input {
+    border: none;
+    width: 100%;
+}
+  
+.navbarRight > h4 {
+    margin-left: 10px;
+}

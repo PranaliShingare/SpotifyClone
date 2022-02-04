@@ -1,0 +1,19 @@
+.loginPage {
+    display: grid;
+    background-color: rgb(64, 64, 199);
+    height: 100vh;
+    place-items: center;
+  }
+  
+  .loginPage > img {
+    height: 380px;
+  }
+ 
+  .loginPage > a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 99px;
+    font-weight: 800;
+    background-color: #1db954;
+  }
